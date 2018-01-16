@@ -92,6 +92,21 @@ $('a[href*="#"]')
             icon.removeClass('ion-close-round');
         }
     });
+    /* Map */
+    var map = new GMaps({
+  div: '.map',
+  lat: 20.9727588,
+  lng: 105.4,
+  zoom: 9
+});
+    map.addMarker({
+  lat: 20.9727588,
+  lng: 105.0921671,
+  title: 'Ha Noi',
+  infoWindow: {
+     content: '<p> Ha Noi </p>'
+  }
+});
 });
 
 

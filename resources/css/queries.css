@@ -88,7 +88,10 @@
     
     
     h1 { font-size: 180%; }
-    h2 { font-size: 150%; }
+    h2 { 
+        font-size: 150%;
+        
+    }
     
     .long-copy {
         width: 100%;
