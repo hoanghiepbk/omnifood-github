@@ -67,7 +67,8 @@ h1 {
 .logo{
     height: 100px;
     width: 100px;
-    float: left;    
+    float: left;
+    padding:4px;
 }
 .logo-black{
     height: 50px;
@@ -280,7 +281,8 @@ section-meals{
 }
 .photo img:hover {
     opacity: 1;
-    transform: scale(1);
+    width: 100%;
+    transform: scale(1.2);
 }
 /*------------------------------------------*/
 /*---------------- how it works---------------------*/
@@ -405,7 +407,7 @@ a:active{
 .section-testimonials {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(img/back-customers.jpg);
     background-size: cover;
-    padding: 100px 0 100px 0;
+    padding: 50px 0 60px 0;
     color: #fff;
     background-attachment: fixed;   
     
@@ -499,6 +501,7 @@ cite img {
     background-color: #e0e0e0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    text-align: center;
 }
 
 .plan-box div:last-child {
@@ -510,7 +513,6 @@ cite img {
 .price-plans {
     font-size: 300%;
     margin-bottom: 15px;
-    margin-left: 40px;
     font-weight: 200;
     color: #e67e22;
 }
@@ -585,7 +587,7 @@ input[type=checkbox]{
     position: absolute;
     width: 50%;
     top: 0;
-    right: 0;
+    right: 20px;
     background-color: rgba(255, 255, 255, 0.8);
     z-index: 10;
     height: 560px;
@@ -664,4 +666,8 @@ footer {
 .button {
     text-align: center;
     
+}
+
+.hungry {
+    margin-right: 20px;
 }
