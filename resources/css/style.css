@@ -190,7 +190,7 @@ input[type=submit]:active {
 }
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-    padding: 16px 0;
+    padding: 5px 0;
     color: #555;
 }
 .sticky .logo-black{
@@ -201,7 +201,7 @@ input[type=submit]:active {
     display: none;
 }
 .sticky .main-nav {
-    margin-top: 18px;
+    margin-top: 10px;
 
     
 }
